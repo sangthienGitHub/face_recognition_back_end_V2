@@ -22,6 +22,7 @@ const db = knex({
 });
 
 const app = express();
+console.log("Hello there");
 
 app.use(morgan("combined"));
 app.use(cors());
